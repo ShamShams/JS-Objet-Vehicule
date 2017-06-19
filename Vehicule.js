@@ -12,5 +12,14 @@ function Vehicule(modele, km) {
   };
 }
 
-v1 = new Vehicule("Clio", 0);
-v1.isPremium("diesel", "noir");
+clio = new Vehicule("Clio", 0);
+clio.isPremium("diesel", "bleue");
+
+megane = new Vehicule("Megane", 500);
+
+modus = new Vehicule("Modus", 900);
+
+scenic = new Vehicule("Scenic", 0);
+scenic.isPremium("diesel", "noire");
+
+twingo = new Vehicule("Twingo", 300);
